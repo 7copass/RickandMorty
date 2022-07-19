@@ -6,10 +6,15 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "localhost:3300",
-  "basePath": "/",
-  "schemes": [
-    "http"
+  "servers": [
+    {
+      "url": "",
+      "description": "API RickAndMorty"
+    },
+    {
+      "url": "http://localhost:3002/",
+      "description": "API de Teste Local"
+    }
   ],
   "paths": {
     "/characters/characters": {
